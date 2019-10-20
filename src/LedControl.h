@@ -27,6 +27,7 @@
 #ifndef LedControl_h
 #define LedControl_h
 
+/* Remove this line for ESP32/ESP8266 */
 #include <avr/pgmspace.h>
 
 #if (ARDUINO >= 100)
